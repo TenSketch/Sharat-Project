@@ -1,0 +1,131 @@
+@use "../abstracts"as *;
+
+.banner {
+  // background-color: $clr-light;
+  background: rgb(251, 239, 243);
+  background: linear-gradient(307deg, rgba(251, 239, 243, 1) 0%, rgba(241, 203, 217, 1) 43%, rgba(187, 2, 73, 1) 96%);
+
+  img {
+    border-radius: 0% 100% 35% 65% / 53% 55% 45% 47%;
+    box-shadow: 19px 20px 32px -17px rgba(94, 2, 37, 1);
+  }
+}
+
+
+.courses {
+  padding: 2% 0;
+
+  &__row {
+    padding: 5% 10%;
+    background-color: $clr-light;
+    margin: 0;
+
+    // background-image: radial-gradient(rgba($clr-primary,0.8) 0%, $clr-light 100%);
+    .content {
+      border-radius: 50px;
+      background: linear-gradient(145deg, #ffffffb7, rgba(255, 255, 255, 0.7));
+      box-shadow: 20px 20px 60px #fff,
+        -20px -20px 60px #ffffff;
+      padding: 1rem 2rem;
+    }
+
+    &:nth-of-type(odd) {
+      background-color: $clr-light;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    &:nth-child(1) {
+      background-image: url(/images/baby-teddy-bear-rear-view-with-design-space.jpg);
+    }
+
+    &:nth-child(3) {
+      background-image: url(/images/labour-and-birth-bg.jpg);
+
+    }
+
+    &:nth-child(5) {
+      background-image: url(/images/young-mom-holding-her-baby-air-blank-space.jpg);
+    }
+
+    &:nth-child(7) {
+      background-image: url(/images/lactation_bg_breastfeeding-pic.jpg);
+    }
+
+    h2 {
+      // padding-left: 0;
+      position: relative;
+      cursor: pointer;
+
+      &::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 50%;
+        background-color: $clr-accent;
+        display: inline-block;
+        left: 0.8rem;
+        bottom: 0;
+        margin-top: 1rem;
+        transform: scale(0.2);
+        transform-origin: left;
+        transition: transform 500ms ease;
+      }
+
+      &:hover {
+        &::after {
+          transform: scale(100%);
+        }
+      }
+    }
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+// .testimonial {
+//   .container {}
+// }
+
+.quotes {
+  // background-color: aqua;
+  background: url("/images/dance-bg.jpg") center no-repeat fixed rgba($clr-primary-500, 0.7);
+  background-size: cover;
+  background-blend-mode: overlay;
+  @extend .py-section;
+}
+
+
+
+.accordion-button {
+
+  // outline: 2px solid red;
+  &:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+  &::after {
+    background-color: $clr-primary;
+    -webkit-mask-image: url('/images/icons/accordian_down-icon.svg');
+    mask-image: url('/images/icons/accordian_down-icon.svg');
+    background-image: none;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &:not(.collapsed) {
+    color: $clr-accent;
+    background-color: $clr-light;
+    box-shadow: none;
+    font-size: $font_size-body;
+  }
+}
