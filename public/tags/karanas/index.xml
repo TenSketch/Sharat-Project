@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Courses on Sharat Project</title>
-    <link>/courses/</link>
-    <description>Recent content in Courses on Sharat Project</description>
+    <title>karanas on Sharat Project</title>
+    <link>/tags/karanas/</link>
+    <description>Recent content in karanas on Sharat Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Apr 2022 19:49:04 +0530</lastBuildDate><atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 19:49:04 +0530</lastBuildDate><atom:link href="/tags/karanas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>तलपुष्पपुटं (talapuṣpapuṭaṃ)</title>
       <link>/courses/1/</link>

@@ -7,6 +7,9 @@ nav {
 .navbar {
   @extend .p-0;
 }
+.bg-dark{
+  background-color: $clr-primary!important;
+}
 .navbar-brand {
   // border: 2px solid blue;
   // padding: 1rem 1.5rem;
@@ -19,6 +22,6 @@ nav {
   }
 }
 .nav-link {
-  color: $clr-accent !important;
+  color: $white!important;
   font-weight: $font_weight-medium;
 }

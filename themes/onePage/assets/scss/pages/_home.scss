@@ -97,7 +97,7 @@
 
 .quotes {
   // background-color: aqua;
-  background: url("/images/dance-bg.jpg") center no-repeat fixed rgba($clr-primary-500, 0.7);
+  background: url("/images/dance-bg.jpg") center no-repeat fixed rgba($clr-accent, 0.7);
   background-size: cover;
   background-blend-mode: overlay;
   @extend .py-section;
