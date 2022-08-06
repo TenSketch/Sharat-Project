@@ -1,13 +1,23 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description: ""
-keywords: ""
 image: "images/sample.jpg"
-categories:
-  - "sample"
 tags:
-  - "sample"
+  - "karanas"
 date: {{ .Date }}
 draft: false
 ---
+
+## 
+
+**श्लोक:**
+
+**धातुः**
+
+**धात्वर्थ:**
+
+**प्रतिपदार्थः**
+
+**भावानुवादः**
+
+**English Meaning:**
 
