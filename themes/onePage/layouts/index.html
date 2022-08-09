@@ -14,7 +14,6 @@
             <div class="col-md-5 mt-5 mt-md-0">
                 <h1>{{ .Page.Params.title }}</h1>
                 {{.Content}}
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda animi, alias numquam ut perferendis facilis? Eius, sunt id nobis numquam inventore, doloremque dolores eveniet consequatur sint quia doloribus eaque, possimus magnam similique! Cumque necessitatibus veniam esse atque aut natus illo commodi odit repellendus expedita dignissimos, rem possimus et voluptatem aperiam.
                 <!-- <a href="{{ .Permalink }}" class="btn btn_primary">Know more</a> -->
             </div>
 
@@ -30,7 +29,7 @@
 <section class="quotes">
     <div class="container">
         {{range first 1 .quoteItem}}
-        <img class="img-fluid icon" src="/images/icons/quote-left-solid.svg" alt="">
+        <!-- <img class="img-fluid icon" src="/images/icons/quote-left-solid.svg" alt=""> -->
         <blockquote class="text-center d-inline-block">
             {{.title | markdownify}}
         </blockquote>
