@@ -5,9 +5,9 @@
 <section id="about" class="about_home my-5 py-5">
     <div class="container">
 
-        <div class="row justify-content-between">
+        <div class="row align-items-center">
             {{ range $index, $val := .Site.Taxonomies.tags.about }}
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <img src="{{.Page.Params.image}}" class="img-fluid rounded-3" alt="{{.Name}}">
 
             </div>
@@ -25,7 +25,7 @@
     </div>
 </section>
 
-<section class="quotes">
+<section id="natyashastra" class="quotes">
     <div class="container text-white">
         {{ range $index, $val := .Site.Taxonomies.tags.natyashastra }}
             
@@ -36,22 +36,22 @@
     </div>
 </section>
 <!-- courses -->
-<section class="courses">
-
+<section id="karanas" class="courses">
+    <div class="container">
+        <h1 class="text-center">Karanas</h1>
         {{ range $index, $val := .Site.Taxonomies.tags.karanas }}
-        <div class="courses__row row justify-content-between align-items-center">
-
-
-          <div class="col-lg-5 content">
-              <!-- <h2 class="courses__row-heading">{{ .Page.Params.title }}</h2> -->
+        <div class="courses__row row justify-content-around align-items-center">
+            <div class="col-lg-5">
+                <!-- <h2 class="courses__row-heading">{{ .Page.Params.title }}</h2> -->
                 <p>{{ .Content }} </p>
-          </div>
-          <div class="col-lg-5">
-            <img class="img-fluid rounded-3" src="{{ .Page.Params.image }}" alt="{{.Name}}">
-          </div>
+            </div>
+            <div class="col-lg-5">
+                <img class="img-fluid rounded-3" src="{{ .Page.Params.image }}" alt="{{.Name}}">
+            </div>
         </div>
+        <hr>
         {{ end }}
-
+    </div>
 </section>
 
 

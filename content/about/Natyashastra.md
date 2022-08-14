@@ -2,7 +2,7 @@
 title: "About Nāṭyaśāstra"
 image: "images/sample.jpg"
 tags: ["natyashastra"]
-date: 2022-08-14T08:38:43+05:30
+date:  2022-08-14T08:38:43+05:30
 draft: false
 ---
 
