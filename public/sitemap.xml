@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/about/natyashastra/</loc>
+    <lastmod>2022-08-14T08:38:43+05:30</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+    <lastmod>2022-08-14T08:38:43+05:30</lastmod>
+  </url><url>
+    <loc>/tags/natyashastra/</loc>
+    <lastmod>2022-08-14T08:38:43+05:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-08-14T08:38:43+05:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-14T08:38:43+05:30</lastmod>
+  </url><url>
     <loc>/karanas/1/</loc>
     <lastmod>2022-04-03T19:49:04+05:30</lastmod>
   </url><url>
@@ -9,12 +24,6 @@
     <lastmod>2022-04-03T19:49:04+05:30</lastmod>
   </url><url>
     <loc>/karanas/</loc>
-    <lastmod>2022-04-03T19:49:04+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-04-03T19:49:04+05:30</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-04-03T19:49:04+05:30</lastmod>
   </url><url>
     <loc>/karanas/2/</loc>
@@ -80,7 +89,7 @@
     <loc>/tags/about/</loc>
     <lastmod>2022-04-03T12:54:59+05:30</lastmod>
   </url><url>
-    <loc>/about-me/</loc>
+    <loc>/about/about-project/</loc>
     <lastmod>2022-04-03T12:54:59+05:30</lastmod>
   </url><url>
     <loc>/categories/</loc>

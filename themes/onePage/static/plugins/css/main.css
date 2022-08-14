@@ -348,7 +348,7 @@ footer li a:hover::after {
 }
 
 .quotes {
-  background: url("/images/dance-bg.jpg") center no-repeat fixed rgba(95, 0, 107, 0.7);
+  background: url("/images/dance-bg.jpg") center no-repeat fixed rgba(35, 0, 39, 0.88);
   background-size: cover;
   background-blend-mode: overlay;
 }
