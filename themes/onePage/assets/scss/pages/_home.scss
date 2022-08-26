@@ -4,9 +4,9 @@
   @extend .pt-scroll;
 
   &__row {
-    &:nth-of-type(even){
-      background-color: $clr-accent-light;
-    }
+    // &:nth-of-type(even){
+    //   background-color: $clr-accent-light;
+    // }
     
     h2 {
       // padding-left: 0;

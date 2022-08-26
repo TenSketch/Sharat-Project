@@ -182,9 +182,6 @@ footer li a:hover::after {
   background: url("/images/icons/hand-point-right-solid.svg") no-repeat left center/cover;
 }
 
-.courses__row:nth-of-type(even) {
-  background-color: hsl(293deg, 100%, 92%);
-}
 .courses__row h2 {
   position: relative;
 }
