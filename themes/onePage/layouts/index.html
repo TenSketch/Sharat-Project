@@ -31,7 +31,15 @@
         {{ range $index, $val := .Site.Taxonomies.tags.natyashastra }}
             
             <h1>{{ .Page.Params.title }}</h1>
+            <blockquote class="text-center">"प्रणम्य शिरसा देवौ पितामहमहेश्वरौ ।
+                नाट्यशास्त्रं प्रवक्श्यामि ब्रह्मणा यदुदाहृतम्॥"</blockquote>
             {{.Content}}
+            <blockquote class="text-center">"जग्राह पाठ्यमृग्वेदात् साम्भ्यो गीतमेव च।
+                यजुर्वेदात् अभिनयान् रसान् अथर्वणादपि॥ "</blockquote>
+                <p class="my-5">From the text, we shall discuss about tāṇḍava lakśaṇam, precisely the "Karaṇas." <p>
+
+                    <blockquote class="text-center">"हस्तपादसमायोगो नृत्तस्य करणं भवेत्। - Bharata Muni"</blockquote>
+                    <blockquote class="text-center">"आत्मकायसमायोगो नृत्तस्य करणं भवेत्।  - Dr. Padma Subrahmanyam"</blockquote>
 
         {{ end }}
     </div>
@@ -39,7 +47,19 @@
 <!-- courses -->
 <section id="karanas" class="courses px-4">
     <div class="container">
-        <h1 class="text-center">Karanas</h1>
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-6 mx-auto">
+                <blockquote class="text-center text-dark">"पद्मजातसतीं नत्वा पद्माख्या या कलौ भवा।" <br>"करणार्थान् यते वक्तुं नाट्यस्य प्रतिपत्तये ।।"</blockquote>
+                <div class="row">
+                    <div class="col-8 col-md-6 col-lg-4 ml-auto">
+                        <p class="text-right">- Sharat Prabhath</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <h1 class="text-center display-4">Karaṇas</h1>
+        <hr>
         {{ range $index, $val := .Site.Taxonomies.tags.karanas }}
         <div class="courses__row row justify-content-around align-items-center">
             <div class="col-lg-5">
