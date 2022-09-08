@@ -182,6 +182,10 @@ footer li a:hover::after {
   background: url("/images/icons/hand-point-right-solid.svg") no-repeat left center/cover;
 }
 
+.about_home h1 {
+  color: #8c009e;
+}
+
 .courses__row h2 {
   position: relative;
 }
@@ -204,7 +208,7 @@ footer li a:hover::after {
 }
 
 .quotes {
-  background: url("/images/dance-bg.jpg") center no-repeat fixed rgba(35, 0, 39, 0.88);
+  background: url("/images/Nataraj.jpg") center no-repeat fixed rgba(35, 0, 39, 0.75);
   background-size: cover;
   background-blend-mode: overlay;
 }

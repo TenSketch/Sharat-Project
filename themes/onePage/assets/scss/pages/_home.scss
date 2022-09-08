@@ -1,5 +1,12 @@
 @use "../abstracts"as *;
 
+.about_home{
+
+  h1{
+    color: $clr-primary;
+    
+  }
+}
 .courses {
   @extend .pt-scroll;
 
@@ -42,7 +49,7 @@
 
 .quotes {
   // background-color: aqua;
-  background: url("/images/dance-bg.jpg") center no-repeat fixed rgba(35, 0, 39, 0.88);;
+  background: url("/images/Nataraj.jpg") center no-repeat fixed rgba(35, 0, 39, 0.75);;
   background-size: cover;
   background-blend-mode: overlay;
   @extend .py-section;
