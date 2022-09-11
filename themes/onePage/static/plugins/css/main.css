@@ -208,7 +208,7 @@ footer li a:hover::after {
 }
 
 .quotes {
-  background: url("/images/Nataraj.jpg") center no-repeat fixed rgba(35, 0, 39, 0.75);
+  background: url("/images/Nataraj.jpg") center no-repeat fixed hsla(294deg, 100%, 3%, 0.97);
   background-size: cover;
   background-blend-mode: overlay;
 }
